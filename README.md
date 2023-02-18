@@ -93,18 +93,7 @@ tips: if result is not good, you can change `thre` in [predict.sh](predict.sh)
     
 The project is still under development.
 
-<h2 id="Performance">Performance</h2>
 
-### [ICDAR 2015](http://rrc.cvc.uab.es/?ch=4)
-only train on ICDAR2015 dataset
-
-| Method                   | image size (short size) |learning rate | Precision (%) | Recall (%) | F-measure (%) | FPS |
-|:--------------------------:|:-------:|:--------:|:--------:|:------------:|:---------------:|:-----:|
-| SynthText-Defrom-ResNet-18(paper)  | 736 |0.007 | 86.8 | 78.4 | 82.3 | 48 |
-| ImageNet-resnet18-FPN-DBHead  |736 |1e-3| 87.03 | 75.06 | 80.6 | 43 |
-| ImageNet-Defrom-Resnet18-FPN-DBHead  |736 |1e-3| 88.61 | 73.84 | 80.56 | 36 |
-| ImageNet-resnet50-FPN-DBHead  |736 |1e-3| 88.06 | 77.14 | 82.24 | 27 |
-| ImageNet-resnest50-FPN-DBHead  |736 |1e-3| 88.18 | 76.27 | 81.78 | 27 |
 
 
 ### examples
